@@ -1,0 +1,67 @@
+.sobre-mim {
+    background: linear-gradient(#03045e, #8586d1);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 40rem;
+}
+
+.sobre-mim div {
+    color: #fce1f1;
+    max-width: 1000px;
+}
+
+.sobre-mim p {
+    font-size: 18px;
+}
+
+.sobre-mim img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    padding: 2rem 0;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-titulo, .crianca-renal {
+    text-align: center;
+}
+
+.crianca-renal {
+    margin-top: 6rem;
+}
+
+.crianca-renal, .internet-ocean, .fapg {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+    margin-bottom: 6rem;
+}
+
+.crianca-renal video, .internet-ocean video, .fapg video {
+    width: 800px;
+}
+
+.crianca-renal div, .internet-ocean div, .fapg div {
+    max-width: 800px;
+    text-align: start;
+}
+
+.crianca-renal h2, .internet-ocean h2, .fapg h2, strong {
+    color: #03045e;
+}
+
+.crianca-renal h1, .internet-ocean h1, .fapg h1 {
+    text-align: center;
+    color: #03045e;
+}
+
+hr {
+    color: #adaee6;
+}
